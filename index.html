@@ -1,11 +1,23 @@
 <!DOCTYPE html>
-<html lang="pt ">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Museu</title>
-    <link rel="stylesheet" type="text/css" href="estilo.css">
-    <link rel="stylesheet" type="text/css" href="normalize.css">
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <!-- HTML5Shiv -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <![endif]-->
+
+    <!-- Estilo customizado -->
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
 
     <!--[if lt IE 9]>
 	    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
@@ -14,30 +26,58 @@
 </head>
 <body>
 
-    <div id="container"> <!--Inicio Conteiner-->
-        <header>
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark  navbar-transparente">
+         <div class="container">
+           <a href="index.html" class="navbar-brand">
+             <img src="" width="142">
+           </a>
+
             <div id="logo">
-                <h1> <a href="">Museu Nacional</a> </h1>
+                    <h1> <a href="">Museu Nacional</a> </h1>
             </div>
-
-            <nav>
-                <ul>
-                    <li> <a href="">Home</a> </li>
-                    <li> <a href="">Exposições</a> </li>
-                    <li> <a href="">Pesquisas</a> </li>
-                    <li> <a href="">Acervo</a> </li>
-                    <li> <a href="">Vídeos</a> </li>
-                    <li> <a href="">Fotos</a> </li>
-                    <li> <a href="">Contato</a> </li>
-                </ul>
-            </nav>
-
-        </header>
-
-        <div id="principal">
+   
+           <!-- Botão para mobile -->
+           <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
+             <i class="fas fa-bars text-white"></i>
+           </button>
+   
+           <div class="collapse navbar-collapse" id="navbarNav"> 
+             <ul class="navbar-nav ml-auto">
+               <li class="nav-item">
+                 <a href="" class="nav-link">Home</a>
+               </li>
+               <li class="nav-item">
+                 <a href="" class="nav-link">Exposições</a>
+               </li>
+               <li class="nav-item">
+                 <a href="" class="nav-link">Pesquisas</a>
+               </li>
+               <li class="nav-item divisor">
+                
+              </li>
+               <li class="nav-item">
+                 <a href="" class="nav-link">Acervo</a>
+               </li>
+               <li class="nav-item">
+                 <a href="" class="nav-link">Vídeos</a>
+               </li>
+               <li class="nav-item">
+                 <a href="" class="nav-link">Fotos</a>
+               </li>
+               <li class="nav-item">
+                 <a href="" class="nav-link">Contato</a>
+               </li>
+             </ul>
+           </div>
+         </div>
+      </nav>
+   </header>
+    
+    <div id="principal">
             <div id="conteudo">
                 <section id="capa">
-                    <img src="./museu.png">
+                    <img src="img/museu.png">
                 </section>
 
                 <section id="postagens">
@@ -100,7 +140,7 @@
             </div>
             <aside>
                 <section id="depoimento">
-                    <img src="./depoimento.png">
+                    <img src="img/depoimento.png">
                 </section>
 
                 <section id="visita">
@@ -124,19 +164,19 @@
                     <h4>Galeria de Fotos</h4>
 
                     <a href="">
-                        <img src="./imagem1.jpg" height="93" width="93" alt="Descreição da imagem">
+                        <img src="img/imagem1.jpg" height="93" width="93" alt="Descreição da imagem">
                     </a>
 
                     <a href="">
-                        <img src="./imagem2.jpg" height="93" width="93"  alt="Descreição da imagem">
+                        <img src="img/imagem2.jpg" height="93" width="93"  alt="Descreição da imagem">
                     </a>
 
                     <a href="">
-                        <img src="./imagem3.jpg" height="93" width="93"  alt="Descreição da imagem">
+                        <img src="/img/imagem3.jpg" height="93" width="93"  alt="Descreição da imagem">
                     </a>
 
                     <a href="">
-                        <img src="./imagem4.jpg" height="93" width="93"  alt="Descreição da imagem">
+                        <img src="img/imagem4.jpg" height="93" width="93"  alt="Descreição da imagem">
                     </a>
                     
 
